@@ -1,15 +1,7 @@
-//DOM Manipulation using javascript
-// const heading = document.createElement("h1");
-// heading.innerHTML = "Hello world from javascript";
-// const root = document.getElementById("root");
-// root.appendChild(heading);
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-
-/* <div id="parent">
-    <div id="child">
-        <h1></h1>
-    </div>
-</div> */
+ 
 
 
 const parent = React.createElement(
@@ -17,8 +9,8 @@ const parent = React.createElement(
     { id: "parent" },[
         React.createElement(
             "div",{ id: "child" }, [
-            React.createElement( "h1", {}, "I am an h1 tag"),
-            React.createElement("h2",{},"I am an h2 tag")
+            React.createElement( "h1", {}, "this is namaste  react"),
+            React.createElement("h2",{},"I am anurag shankar ")
         ]),  React.createElement(
             "div",{ id: "child2" }, [
             React.createElement( "h1", {}, "I am an h1 tag"),
