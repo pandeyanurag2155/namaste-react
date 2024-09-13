@@ -18,3 +18,21 @@
 -HTTPs
 -Tree Shaking =>Remove unused code for you 
 -Different dev and prod bundles
+
+
+/**
+* Header
+* -Logo
+* - Nav Items
+* Body
+⭑  -Search
+*  -RestaurantContainer
+*     - RestaurantCard
+*        -Img
+*       -Name of Res, star Rating ,cuisine,delivery time
+* Footer
+*  -Copyright
+*  -Links
+*  -Address
+*  -Contact You
+*/
